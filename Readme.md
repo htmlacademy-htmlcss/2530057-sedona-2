@@ -1,7 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Ярослав Мастилин](https://up.htmlacademy.ru/htmlcss-individual/2/user/2530057).
-* Наставник: `Неизвестно`.
+* Наставник: [Татьяна Симоненко](https://htmlacademy.ru/profile/tatien).
+* Сайт: [Мой проект Седона](https://yaros2.github.io/2530057-sedona-2/)
 
 ---
 
