@@ -18,7 +18,7 @@
       <a class="main-navigation-link" href="#">О Седоне</a>
     </li>
     <li class="main-navigation-item">
-      <a class="main-navigation-link" href="">Гостиницы</a>
+      <a class="main-navigation-link active" href="">Гостиницы</a>
     </li>
     </ul>
     <ul class="main-navigation-list navigation-user">
@@ -32,7 +32,7 @@
         <span class="notification-badge">12</span></a>
     </li>
     </ul>
-    <a class="navigation-button" href="#">Хочу сюда!</a>
+    <a class="button button-navigation" href="#">Хочу сюда!</a>
     </nav>
     </header>
     <main class="inner-main">
@@ -93,8 +93,8 @@
             </li>
           </ul>
         </fieldset>
-        <button class="button button-install" type="submit">Применить</button>
-        <button class="button button-uninstall" type="submit">Сбросить</button>
+        <button class="button button-submit" type="submit">Применить</button>
+        <button class="button button-reset" type="reset">Сбросить</button>
       </form>
       </header>
       <section class="catalog-product">
@@ -104,13 +104,13 @@
           <option value="popular">Сначала популярные</option>
         </select>
         <p class="result">Найдено гостиниц: 38</p>
-        <a class="button-light-active" href="#">
+        <a class="button button-light-active" href="#">
           <span class="visually-hidden">Показать карточки</span>
         </a>
-        <a class="button-light" href="#">
+        <a class="button button-light" href="#">
           <span class="visually-hidden">Показать плитки</span>
         </a>
-        <a class="button-light" href="#">
+        <a class="button button-light" href="#">
           <span class="visually-hidden">Показать список</span>
         </a>
       <ul class="product-list">
@@ -121,7 +121,7 @@
           </a>
           <p>Гостиница</p>
           <p>От 4000 ₽</p>
-          <a class="button" href="#">Подробнее</a>
+          <a class="button button-details" href="#">Подробнее</a>
           <a class="button button-favourite" href="#">В избранное</a>
           <p class="rating">Рейтинг: 8,5</p>
         </li>
@@ -132,7 +132,7 @@
           </a>
           <p>Гостиница</p>
           <p>От 5000 ₽</p>
-          <a class="button" href="#">Подробнее</a>
+          <a class="button button-details" href="#">Подробнее</a>
           <a class="button button-favourite-active" href="#">В избранное</a>
           <p class="rating">Рейтинг: 9,2</p>
         </li>
@@ -143,7 +143,7 @@
           </a>
           <p>Гостиница</p>
           <p>От 2500 ₽</p>
-          <a class="button" href="#">Подробнее</a>
+          <a class="button button-details" href="#">Подробнее</a>
           <a class="button button-favourite" href="#">В избранное</a>
           <p class="rating">Рейтинг: 6,9</p>
         </li>
@@ -154,7 +154,7 @@
           </a>
           <p>Гостиница</p>
           <p>От 1500 ₽</p>
-          <a class="button" href="#">Подробнее</a>
+          <a class="button button-details" href="#">Подробнее</a>
           <a class="button button-favourite" href="#">В избранное</a>
           <p class="rating">Рейтинг: 5,0</p>
         </li>
@@ -185,22 +185,36 @@
         <p class="search-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru" method="post">
           <input class="newsletter-field" placeholder="Ваш e-mail" type="email" name="email">
-          <button class="button newsletter-button" type="submit">Отправить</button>
+          <button class="button button-newsletter" type="submit">Отправить</button>
         </form>
       </section>
     </main>
+  </body>
     <footer class="main-footer">
-      <section class="contacts">
+      <section class="social-media">
         <h2 class="visually-hidden">Контактные данные</h2>
         <ul class="contacts-social-list">
           <li class="contacts-social-item">
-            <a class="button social-button" href="#"><span class="visually-hidden">Vkontakte</span></a></li>
+            <a class="button button-social" href="#">
+              <span class="visually-hidden">Vkontakte</span></a>
+          </li>
           <li class="contacts-social-item">
-            <a class="button social-button" href="#"><span class="visually-hidden">Telegram</span>Telegram</a></li>
+            <a class="button button-social" href="#">
+              <span class="visually-hidden">Telegram</span></a>
+          </li>
           <li class="contacts-social-item">
-            <a class="button social-button" href="#"><span class="visually-hidden">YouTube</span></a></li>
+            <a class="button button-social" href="#">
+              <span class="visually-hidden">YouTube</span></a>
+          </li>
         </ul>
+      </section>
+      <section class="contacts">
         <a class="contacts-phone" href="tel:+78005558628">+7 (812) 812-12-12</a>
-        <img class="watermark" src="#" alt="логотип онлайн-школы HTML Academy">
+      </section>
+      <section class="author">
+      <a class="watermark" href="https://htmlacademy.ru">
+        <img class="creator" src="#" alt="логотип онлайн-школы HTML Academy">
+      </a>
       </section>
     </footer>
+    </html>
