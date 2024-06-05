@@ -14,17 +14,60 @@
   font-display: swap;
 }
 
+a {
+  font-family: inherit;
+  text-decoration: none;
+}
+
 /* Header */
 
 .main-header {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+}
 
+.navigation-header {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.button-navigation {
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.notification-badge {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+  text-align: center;
 }
 
 /* Body */
+
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
+  font-weight: 400;
   line-height: 21px;
   color: #000000;
   background: #83B3D31F;
+}
+
+.advantages-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+
+.advantages-subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
 }
