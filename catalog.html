@@ -1,51 +1,48 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
-    <header class="main-header">
-    <nav class="main-navigation">
-    <a class="main-navigation-logo" href="#">
-      <img class="main-header-logo" src="img/logotip.svg" width="140" height="70.05" alt="логотип города Седона">
-    </a>
-    <ul class="main-navigation-list">
-    <li class="main-navigation-item">
-      <a class="main-navigation-link" href="index.html">Главная
+  <header class="header-main">
+    <nav class="navigation-header">
+      <a class="navigation-header-logo-link" href="#">
+        <img class="navigation-header-logo" src="img/logo.svg" alt="логотип города Седона" width="140" height="70.05">
       </a>
-    </li>
-    <li class="main-navigation-item">
-      <a class="main-navigation-link" href="#">О Седоне
-      </a>
-    </li>
-    <li class="main-navigation-item">
-      <a class="main-navigation-link active" href="">Гостиницы
-      </a>
-    </li>
-    </ul>
-    <ul class="main-navigation-list navigation-user">
-    <li class="navigation-user-item">
-      <a class="navigation-user-link" href="#">
-        <img class="navigation-user-image" src="img/loup.svg" width="20" height="20" alt="">
-        <span class="visually-hidden">Поиск
-        </span>
-      </a>
-    </li>
-    <li class="navigation-item">
-      <a class="navigation-link" href="#">
-        <img class="navigation-user-image" src="img/heart.svg" width="20" height="20" alt="">
-        <span class="visually-hidden">Избранное
-        </span>
-        <span class="notification-badge">12
-        </span>
-      </a>
-    </li>
-    </ul>
-    <a class="button button-navigation" href="#">Хочу сюда!
-    </a>
+      <ul class="navigation-header-list">
+        <li class="navigation-header-item">
+          <a class="navigation-header-link active" href="">Главная
+          </a>
+        </li>
+        <li class="navigation-header-item">
+          <a class="navigation-header-link" href="#">О Седоне
+          </a>
+        </li>
+        <li class="navigation-header-item">
+          <a class="navigation-header-link" href="catalog.html">Гостиницы
+          </a>
+        </li>
+      </ul>
     </nav>
-    </header>
+    <nav class="navigation-user">
+      <ul class="navigation-user-list">
+        <li class="navigation-user-item">
+          <a class="navigation-user-link" href="#">
+            <img class="navigation-user-image" src="img/search.svg" width="20" height="20" alt="">
+            <span class="visually-hidden">Поиск
+            </span>
+          </a>
+        </li>
+        <li class="navigation-user-item">
+          <a class="navigation-user-link" href="#">
+            <img class="navigation-user-image" src="img/heart.svg" width="20" height="20" alt="">
+            <span class="visually-hidden">Избранное
+            </span>
+            <span class="notification-badge">12
+            </span>
+          </a>
+        </li>
+      </ul>
+      <a class="button button-navigation" href="#">Хочу сюда!
+      </a>
+    </nav>
+  </header>
     <main class="inner-main">
       <header class="inner-header">
         <h1 class="inner-header-title">Гостиницы Седона
@@ -71,12 +68,14 @@
             <li class="catalog-filter-item">
               <label class="control">
                 <input class="control-input" type="checkbox" name="pool" checked>
+                <img src="img/catalog/mark-infrastructure.svg" width="12.2" height="9.9" alt="">
                 Бассейн
               </label>
             </li>
             <li class="catalog-filter-item">
               <label class="control">
                 <input class="control-input" type="checkbox" name="parking" checked>
+                <img src="img/catalog/mark-infrastructure.svg" width="12.2" height="9.9" alt="">
                 Парковка
               </label>
             </li>
@@ -119,6 +118,7 @@
       </form>
       </header>
       <section class="catalog-product">
+        <img src="img/catalog/mark-select.svg" width="11.93px" height="7.02px" alt="">
         <select class="select-control" aria-label="Сортировка">
           <option value="cheap">Сначала дешевые
           </option>
@@ -147,7 +147,7 @@
       <ul class="product-list">
         <li class="product-item">
           <a class="product-card-link" href="#">
-            <img class="product-card-image" src="img/catalog/house/amara resort & spa.jpg" width="300" height="212" alt="скалы каньона">
+            <img class="product-card-image" src="img/catalog/hotels/amara-resort-spa.jpg" width="300" height="212" alt="скалы каньона">
             <h3 class="product-card-title">Amara Resort & Spa
             </h3>
           </a>
@@ -164,7 +164,7 @@
         </li>
         <li class="product-item">
           <a class="product-card-link" href="#">
-            <img class="product-card-image" src="img/catalog/house/villas at poco dablo.jpg" width="300" height="212" alt="скалы каньона" >
+            <img class="product-card-image" src="img/catalog/hotels/villas-at-poco-dablo.jpg" width="300" height="212" alt="скалы каньона" >
             <h3 class="product-card-title">Villas at Poco Diablo
             </h3>
           </a>
@@ -174,14 +174,14 @@
           </p>
           <a class="button button-details" href="#">Подробнее
           </a>
-          <a class="button button-favourite-active" href="#">В избранное
+          <a class="button button-favourite-active" href="#">В избранном
           </a>
           <p class="rating">Рейтинг: 9,2
           </p>
         </li>
         <li class="product-item">
           <a class="product-card-link" href="#">
-            <img class="product-card-image" src="img/catalog/house/desert quail inn.jpg" width="300" height="212" alt="скалы каньона">
+            <img class="product-card-image" src="img/catalog/hotels/desert-quail-inn.jpg" width="300" height="212" alt="скалы каньона">
             <h3 class="product-card-title">Desert Quail Inn
             </h3>
           </a>
@@ -198,7 +198,7 @@
         </li>
         <li class="product-item">
           <a class="product-card-link" href="#">
-            <img class="product-card-image" src="img/catalog/house/greentee inn.jpg" width="300" height="212" alt="скалы каньона">
+            <img class="product-card-image" src="img/catalog/hotels/greentee-inn.jpg" width="300" height="212" alt="скалы каньона">
             <h3 class="product-card-title">GreenTree Inn
             </h3>
           </a>
@@ -288,7 +288,7 @@
     </section>
     <section class="author">
     <a class="watermark" href="https://htmlacademy.ru">
-      <img class="creator" src="img/HTML Academy.svg" width="114.9" height="32.9" alt="логотип онлайн-школы HTML Academy">
+      <img class="creator" src="img/html-academy.svg" width="114.9" height="32.9" alt="логотип онлайн-школы HTML Academy">
     </a>
     </section>
   </footer>
