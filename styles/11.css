@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2");
+  font-display: swap;
+}
+
+a {
+  font-family: inherit;
+}
+
+.button {
+  font-family: "PT Sans", sans-serif;
+  border-radius: 4px;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #756157;
+  padding: 8px 50px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+/* Header */
+
+.index-header {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.index-header a {
+  text-decoration: none;
+}
+
+.navigation-header-list {
+  list-style-type: none;
+}
+
+.navigation-header-list a {
+  color:#000000;
+}
+
+.navigation-user-list a {
+ color:#000000;
+}
+
+.navigation-user-list {
+  list-style-type: none;
+}
+
+.button-navigation {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.notification-badge {
+  font-size: 10px;
+  line-height: 10px;
+}
+
+/* Body */
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.hero {
+  background-image: url("../img/index/hero/stairs.svg"), url("../img/index/hero/index-background.jpg");
+  background-size: 100% auto, 100% auto;
+  background-repeat: no-repeat, no-repeat;
+  text-align: center;
+  background-position: bottom, center;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subtitle  {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
