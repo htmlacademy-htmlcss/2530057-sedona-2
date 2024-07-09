@@ -19,6 +19,8 @@ a {
 }
 
 .button {
+  font-family: "PT Sans", sans-serif;
+  border: 0;
   border-radius: 4px;
   color: #FFFFFF;
   text-align: center;
@@ -32,11 +34,6 @@ a {
   cursor: pointer;
 }
 
-button {
-  border: 0;
-  cursor: pointer;
-}
-
 /* Header */
 
 .index-header {
@@ -45,7 +42,6 @@ button {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   text-align: center;
-  text-transform: uppercase;
   font-size: 20px;
   line-height: 24px;
 }
@@ -58,11 +54,11 @@ button {
   list-style-type: none;
 }
 
-.navigation-header-list a {
+.navigation-header-link {
   color:#000000;
 }
 
-.navigation-user-list a {
+.navigation-user-link {
   color: #000000;
 }
 
@@ -83,7 +79,21 @@ button {
 
 /* Body */
 
+.main {
+  background-color: #FFFFFF;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  background-color: #F2F2F2;
+  color: #000000;
+}
+
 .hero {
+  background-color: #577383;
   background-image: url("../img/index/hero/stairs.svg"), url("../img/index/hero/index-background.jpg");
   background-size: 100% auto, 100% auto;
   background-repeat: no-repeat, no-repeat;
@@ -105,20 +115,12 @@ button {
   text-align: center;
 }
 
-body {
-  font-family: "PT Sans", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 23px;
-  background-color: #F2F2F2;
-  color: #000000;
-}
-
 .inner-header {
   color: white;
   background-image: url("../img/catalog/background-catalog.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  background-color: #577383;
 }
 
 .header-title {
@@ -193,13 +195,14 @@ body {
     border-color: #E6E6E6;
   }
 
-  .product-item h2 {
+  .product-card-title {
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
   }
 
   .product-item p {
+    font-size: 18px;
   line-height: 21px;
   }
 
@@ -221,29 +224,23 @@ body {
   background-color: #7DB54F;
   }
 
+.pagination {
+  color: #FFFFFF;
+}
 
-  .pagination {
-    list-style-type: none;
-  }
-
-  .pagination-current {
-  color: black;
-  background-color: #F2F2F2;
-  }
-
-  .pagination-link {
+.pagination-link {
     background-color: #82B3D3;
     text-decoration: none;
-    color: #F2F2F2;
   }
 
-  .pagination-current {
-    color: black;
+  li .pagination-current {
+    color:#000000;
     background-color: #F2F2F2;
     }
 
-  .pagination-ellipsis {
+  li .pagination-ellipsis {
   background-color: rgba(255, 255, 255, 1);
+  color:#000000;
   }
 
   .subscribe-catalog {
@@ -255,6 +252,7 @@ body {
   .subscribe {
     text-align: center;
     color:#FFFFFF;
+    background-color: #577383;
     background-image: url("../img/index/subscribe-background.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -279,11 +277,15 @@ body {
     font-size: 18px;
   }
 
-  .advantages-list h3 {
+  .advantages-title {
     font-size: 24px;
     font-weight: 700;
     line-height: 28px;
     text-transform: uppercase;
+  }
+
+  .transparent-advantages-item {
+    background-color: rgba(131, 179, 211, 0.12)
   }
 
   .gray-advantages-item {
@@ -301,7 +303,7 @@ body {
     font-weight: 700;
   }
 
-  .infrastructure-list h3 {
+  .infrastructure-title {
     font-size: 24px;
     font-weight: 700;
     line-height: 28px;
@@ -330,6 +332,10 @@ body {
     text-decoration: none;
   }
 /* Footer */
+
+.footer {
+  background-color: #FFFFFF;
+}
 
 .social-list {
   list-style-type: none;
