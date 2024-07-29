@@ -34,6 +34,11 @@ a {
   cursor: pointer;
 }
 
+.visually-hidden {
+  margin: 0;
+  padding: 0;
+}
+
 /* Header */
 
 .index-header {
@@ -87,11 +92,23 @@ a {
   background-color: #FFFFFF;
 }
 
+.advantages-list {
+padding: 0;
+margin: 0;
+}
+
 .infrastructure {
   background-color: #FFFFFF;
 }
 
+.infrastructure-list {
+  padding: 0;
+  margin: 0;
+}
 
+.main {
+  background-color: #F2F2F2;
+}
 
 body {
   font-family: "PT Sans", sans-serif;
@@ -102,6 +119,9 @@ body {
   color: #000000;
 }
 
+h1 {
+  margin: 0;
+}
 
 .hero {
   background-color: #577383;
@@ -118,12 +138,15 @@ body {
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .subtitle  {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .inner-header {
@@ -181,19 +204,17 @@ body {
   border-color: #000000;
   }
 
-  .catalog-product a {
+  .product-item .button {
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
     text-decoration: none;
-    color: inherit;
-  }
-
-  .catalog-product .button {
-  font-size: 16px;
-  line-height: 20px;
-  color: white;
   }
 
   .button-details {
     background-color: #756157;
+    text-decoration: none;
+    color: inherit;
   }
 
   .product-list {
@@ -210,6 +231,12 @@ body {
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
+  text-decoration: none;
+  color:#000000;
+  }
+
+  .product-card-link {
+    text-decoration: none;
   }
 
   .product-item p {
@@ -235,21 +262,22 @@ body {
   background-color: #7DB54F;
   }
 
-  .pagination {
-  color: #FFFFFF;
+  .pagination-list {
+    margin: 0;
   }
 
   .pagination-link {
+    color: #FFFFFF;
     background-color: #82B3D3;
     text-decoration: none;
   }
 
-  li .pagination-current {
+  .pagination-current {
     color:#000000;
     background-color: #F2F2F2;
     }
 
-  li .pagination-ellipsis {
+  .pagination-ellipsis {
   background-color: rgba(255, 255, 255, 1);
   color:#000000;
   }
@@ -270,9 +298,10 @@ body {
     background-repeat: no-repeat;
   }
 
-  .title-subscribe {
+  .subscribe-title {
   font-size: 30px;
   line-height: 36px;
+  margin: 0;
   }
 
   .subtitle-subscribe {
@@ -287,6 +316,8 @@ body {
 
   .advantages-description {
     font-size: 18px;
+    padding: 0;
+    margin: 0;
   }
 
   .advantages-title {
@@ -294,6 +325,7 @@ body {
     font-weight: 700;
     line-height: 28px;
     text-transform: uppercase;
+    margin: 0;
   }
 
   .transparent-advantages-item {
@@ -310,16 +342,15 @@ body {
   }
 
   .infrastructure-title {
-    font-size: 30px;
-    line-height: 36px;
-    font-weight: 700;
-  }
-
-  .infrastructure-title {
     font-size: 24px;
     font-weight: 700;
     line-height: 28px;
     text-transform: uppercase;
+    margin: 0;
+  }
+
+  .infrastructure-description {
+    margin: 0;
   }
 
   .infrastructure-list {
@@ -334,6 +365,11 @@ body {
   .search {
     text-align: center;
     background-color: #FFFFFF;
+  }
+
+  .search-description {
+    font-size: 22px;
+    line-height: 26px;
   }
 
   .button-newsletter {
