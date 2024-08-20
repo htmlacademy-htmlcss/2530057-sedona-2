@@ -1,0 +1,182 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2");
+  font-display: swap;
+}
+
+a {
+  font-family: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.button {
+  border-radius: 4px;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #82B3D3;
+  padding: 8px 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* Header */
+
+.main-header {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.navigation-header,
+.navigation-user {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.button-navigation {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.notification-badge {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+  text-align: center;
+}
+
+/* Body */
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  background-color: #FFFFFF;
+  color: #000000;
+  }
+
+  .main-header {
+  color: white;
+  background-color: #82B3D3;
+  background-image: url("../img/catalog/background-catalog.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  }
+
+  h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+  text-align: right;
+  }
+
+  .button-submit {
+  background-color: #82B3D3;
+  }
+
+  .button-reset {
+  background-color: rgba(255, 255, 255, 0)
+  }
+
+  .result {
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 36px;
+  }
+
+  .button-light {
+  border-color: #E5E5E5;
+  border-width: 2px;
+  padding: 14px 12px;
+  }
+
+  .button-light-active {
+  border-color: #000000;
+  border-width: 2px;
+  padding: 14px 12px;
+  }
+
+  .catalog-product .button {
+  font-size: 16px;
+  line-height: 20px;
+  }
+
+  .product-item h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  }
+
+  .product-item p {
+  line-height: 21px;
+  }
+
+  .rating {
+  background-color: #E6E6E6;
+  }
+
+  .product-card {
+  border-color: #E6E6E6;
+  border-width: 1px;
+  padding: 20px;
+  }
+
+  .button-favourite {
+  background-color: #82B3D3;
+  }
+
+  .button-favourite-active {
+  background-color: #7DB54F;
+  }
+
+  .pagination-item {
+  background-color: #82B3D3;
+  }
+
+  .pagination-current {
+  color: black;
+  background-color: #F2F2F2;
+  }
+
+  .pagination-ellipsis {
+  background-color: rgba(255, 255, 255, 0);
+  }
+
+  .title-subscribe {
+  font-size: 30px;
+  line-height: 36px;
+  }
+
+  .subtitle-subscribe {
+  font-size: 22px;
+  line-height: 26px;
+  }
+
+/* Footer */
+
+.contacts-phone {
+  font-size: 40px;
+  line-height: 40px;
+}
